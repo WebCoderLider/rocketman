@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=monospace:ital,wght@1,600&display=swap');
+
+.contex_div {
+    border: 1px solid #00000069;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.contex_div .User {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #00000069;
+    padding: 0 0 10px 0;
+}
+
+.contex_div .User .Message {
+    width: 500px;
+}
+
+.contex_div .User .id {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background: #0000002a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contex_div .User .name h4 {
+    font-style: 14px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.contex_div .User .name h6 {
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.4;
+}
+
+.contex_div .User .delete img{
+    margin: 0 10px;
+}

@@ -1,0 +1,13 @@
+.maindashboard{
+    margin-left: 15.5%;
+    margin-top: 100px;
+}
+.maindashboard .form-select{
+    max-width: 170px;
+}
+
+.maindashboard .table-responsive table {
+    border: 1px solid #0000006d;
+    border-radius: 14px !important; /* Adjusted border-radius value */
+}
+
